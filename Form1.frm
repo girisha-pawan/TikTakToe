@@ -1,4 +1,4 @@
-[11:03 pm, 17/12/2022] Pawan Kumar: Private Const pi = 3.14159265359
+Private Const pi = 3.14159265359
 Private Sub Command1_Click()
  RotatePicture Picture1, Picture2, 45
 End Sub
