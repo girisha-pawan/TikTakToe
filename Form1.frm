@@ -31,8 +31,6 @@ Public Sub RotatePicture(ByVal picSource As PictureBox, ByVal picDest As Picture
   Set picDest.Picture = Nothing
   picDest.Cls
  
- …
-[11:23 am, 18/12/2022] Pawan Kumar: Form1.frm
 
 Dim i As Integer
 
@@ -46,7 +44,7 @@ Else
     Label1.Caption = Form2.Text2.Text + "'s turn..."
 End If
 If (Command1.Caption = Command2.Caption And Command2.Caption = Command3.Caption) Or (Command4.Caption = Command5.Caption And Command5.Caption = Command6.Caption) Or (Command7.Caption = Command8.Caption And Command8.Caption = Command9.Caption) Or (Command1.Caption = Command4.Caption And Command4.Caption = Command7.Caption) Or (Command2.Caption = Command5.Caption And Command5.Caption = Command8.Caption) Or (Command3.Caption = Command6.Caption And Command6.Caption = Command9.Caption) Or (Com…
-[11:23 am, 18/12/2022] Pawan Kumar: Label1.Caption = "Game Ties..."
+        Label1.Caption = "Game Ties..."
         Command10.Visible = True
         Command11.Visible = True
     End If
